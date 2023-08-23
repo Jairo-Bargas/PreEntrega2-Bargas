@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* Listas */
+/* Header */
+
+.navbar{
+    height: 60px;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.nav-link{
+    color: #000 !important;
+}
+
+/* Header */
+
+/* Main */
+.jumbotron{
+    display: flex;
+    position: relative;
+}
+.jumbotron h1{
+    position: absolute;
+    z-index: 1;
+    margin: 15px;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+.jumbotron img{
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 20vh;
+    margin: 1%;
+    border-radius: 5%;
+    color: whitesmoke;
+}
+
+
+.nleft{
+    height: 20vh;
+    background-image: url(../img/playa_de_bahamas.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+
+.nright p{
+    font-size: small;
+    border-radius: 5%;
+    
+}
+
+.nright h3{
+    text-align: center;
+}
+
+.nleft2{
+    height: 20vh;
+    background-image: url(../img/playa_del_caribe.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+.nleft3{
+    height: 20vh;
+    background-image: url(../img/playa_de_florianopolis.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+
+
+
+/* Main */
+
+
+/* FOOTER */
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.footersup{
+    padding: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+.footersup span{
+    font-family: 'Patua One', cursive;
+}
+.footersup a{
+    padding: 5px;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+.footerinf{
+    padding: 5px;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+.footerinf p{
+    padding-left: 18px;
+    font-size: small;
+    
+}
+.footerinf div{
+    padding-right: 15px;
+}
+.footerinf div i{
+    padding: 4px;
+}
+/* FOOTER */
+
+/************************************* ARMA TU VIAJE ******************************************/
+
+.texto{
+    align-items: center;
+}
+
+.texto p{
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/************************************* PAQUETES EXCLUSIVOS ******************************************/
+
+
+/************************************* MAIN ******************************************/
+
+.planificador{
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.534);
+}
+
+.titulo3{
+    font-size: 80px;
+    font-family: 'Patua One', cursive;
+}
+.formularios3{
+    font-size: 25px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#enviar input{
+    font-size: 25px;
+}
+
+
+.destinospaquete h3{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+}
+
+.imagenesdestinos{
+    margin-top: 20px;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    
+}
+
+.imagenesdestinos img{
+    width: 280px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/************************************* CONTACTO ******************************************/
+
+
+/************************************* MAIN ******************************************/
+
+.contactar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.formulariocontacto{
+    background-color: rgba(255, 0, 0, 0.534);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.formulariocontacto h2{
+    font-size: 60px;
+    font-family: 'Patua One', cursive;
+}
+
+
+.imagencontacto img{
+    margin-left: 10px;
+    width: 90%;
+    height: auto;
+}
+
+.mapacontacto{
+    background-color: rgba(255, 0, 0, 0.534);
+    border-radius: 15px;
+    padding: 5px;
+}
+.mapacontacto h3{
+    font-size: 22px;
+    font-family: 'Patua One', cursive;
+}
+
+/************************************* SOBRE NOSOTROS ******************************************/
+
+
+/************************************* MAIN ******************************************/
+
+#nosotrostitulo{
+    display: flex;
+    position: relative;
+}
+
+#nosotrostitulo h2{
+    position: absolute;
+    font-size: 120px;
+    padding: 40px;
+    font-family: 'Patua One', cursive;
+    color: whitesmoke;
+}
+
+#nosotrostitulo img{
+    width: 100%;
+    height: auto;
+}
+#nosotrosp{
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.534);
+    border-radius: 15px;
+}
+
+
+/* COMIENZAN LAS MEDIA QUERIES */
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    h2{
+        text-align: center;
+        padding: 25px;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    
+    .row{
+        background-color: rgba(0, 0, 0, 0.781);
+        height: 30vh;
+        margin: 1%;
+        border-radius: 5%;
+        color: whitesmoke;
+    }
+    
+    
+    .nleft{
+        height: 30vh;
+        background-image: url(../img/playa_de_bahamas.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    
+    .nright p{
+        font-size: large;
+        border-radius: 5%;
+        
+    }
+    
+    .nright h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .nleft2{
+        height: 30vh;
+        background-image: url(../img/playa_del_caribe.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    .nleft3{
+        height: 30vh;
+        background-image: url(../img/playa_de_florianopolis.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    .footersup{
+        padding: 20px;
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+    }
+    .footersup span{
+        font-family: 'Patua One', cursive;
+    }
+    .footersup a{
+        padding: 5px;
+        font-size: medium;
+    }
+    .footerinf{
+        padding: 5px;
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+    }
+    .footerinf p{
+        padding-left: 18px;
+        font-size: medium;
+        
+    }
+    .footerinf div{
+        padding-right: 15px;
+    }
+    .footerinf div i{
+        padding: 4px;
+    }
+
+    .divform{
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .navbar{
+        height: 80px;
+        font-size: x-large;
+    }
+    
+    .navbar-brand img{
+        height: 70px;
+    }
+    
+    .nav-link{
+        color: #000 !important;
+    }
+    h2{
+        text-align: center;
+        padding: 25px;
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    
+    .row{
+        background-color: rgba(0, 0, 0, 0.781);
+        height: 50vh;
+        margin: 1%;
+        border-radius: 5%;
+        color: whitesmoke;
+    }
+    
+    
+    .nleft{
+        height: 50vh;
+        background-image: url(../img/playa_de_bahamas.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    
+    .nright p{
+        font-size: xx-large;
+        border-radius: 5%;
+        
+    }
+    
+    .nright h3{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .nleft2{
+        height: 50vh;
+        background-image: url(../img/playa_del_caribe.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    .nleft3{
+        height: 50vh;
+        background-image: url(../img/playa_de_florianopolis.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+    }
+    .footersup{
+        padding: 20px;
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+    }
+    .footersup span{
+        font-family: 'Patua One', cursive;
+    }
+    .footersup a{
+        padding: 5px;
+        font-size: large;
+    }
+    .footerinf{
+        padding: 5px;
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+    }
+    .footerinf p{
+        padding-left: 18px;
+        font-size: large;
+        
+    }
+    .footerinf div{
+        padding-right: 15px;
+    }
+    .footerinf div i{
+        padding: 4px;
+    }
+    .divform{
+        display: flex;
+        justify-content: space-around;
+    }
+}
